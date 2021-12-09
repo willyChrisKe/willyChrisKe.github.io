@@ -277,9 +277,9 @@ footer a:hover{
         height: 200px;
       }
       
-form{
+form label{
     font-size: 1.2rem;
-    line-height: 40px;
+
 }
 form input{
     font-size: 1.1rem;
