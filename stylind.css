@@ -227,6 +227,8 @@ footer a:hover{
         padding: 0;
         justify-items: center;
         font-size: 16px;
+        /*newly added*/
+        background: linear-gradient(45deg, #e3efcf, #DBCFEF);
     }
     #header div{
         padding: 1rem;
