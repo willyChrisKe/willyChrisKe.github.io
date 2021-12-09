@@ -278,12 +278,8 @@ footer a:hover{
       }
       
 form{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 40px;
-    background-color: #d3d0b7;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    padding: 20px;
 }
 form input{
     font-size: 1.1rem;
