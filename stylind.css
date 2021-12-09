@@ -86,6 +86,10 @@ html body{
     width: 40px;
     padding: 8px;
 }
+#pro{
+    margin-top: 2rem;
+}
+
 
 #works > p{
   padding: 4rem;
