@@ -131,8 +131,8 @@ html body{
 form{
     display: flex;
     flex-direction: column;
-    font-size: 1.7rem;
-    line-height: 40px;
+    font-size: 1.3rem;
+    line-height: 30px;
     width: 70%;
     margin: auto;
     background-color: #d3d0b7;
@@ -277,15 +277,5 @@ footer a:hover{
         height: 200px;
       }
       
-form label{
-    font-size: 1.2rem;
-
-}
-form input{
-    font-size: 1.1rem;
-}
-form textarea{
-    font-size: 1.1rem;
-}
 
   }
