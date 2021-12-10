@@ -19,6 +19,8 @@ html body{
     padding: 1rem;
     justify-items: center;
     font-size: 16px;
+        /*newly added*/
+        background: linear-gradient(45deg, #e3efcf, #DBCFEF);
 }
 #header a{
     text-decoration: none;
@@ -39,6 +41,7 @@ html body{
     font-family: 'Roboto', sans-serif;
     color: blue;
     font-size: 30px;
+
 }
 #header2{
     grid-column: 4/5;
@@ -74,6 +77,25 @@ html body{
     border-left-style: solid;
     border-left-width: 0.5rem;
     border-left-color: rgb(121, 88, 64);
+    position: relative;
+    width: max-content;
+    color: blue;
+}
+#name::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e3efcf;
+  animation: type 2s steps(36) infinite;
+}
+
+@keyframes type {
+    to{
+        left: 100%;
+    }
 }
 
 #me{
@@ -227,8 +249,6 @@ footer a:hover{
         padding: 0;
         justify-items: center;
         font-size: 16px;
-        /*newly added*/
-        background: linear-gradient(45deg, #e3efcf, #DBCFEF);
     }
     #header div{
         padding: 1rem;
