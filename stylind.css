@@ -89,7 +89,7 @@ html body{
   left: 0;
   right: 0;
   background-color: #e3efcf;
-  animation: type 2s steps(36) infinite;
+  animation: type 2s steps(36) 3 forwards;
 }
 
 @keyframes type {
@@ -304,5 +304,8 @@ footer a:hover{
         height: 200px;
       }
       
-
+   #name{
+       font-size: 1.4rem;
+       white-space: nowrap;
+   }
   }
