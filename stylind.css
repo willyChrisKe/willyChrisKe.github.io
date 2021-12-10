@@ -10,9 +10,7 @@ html body{
 #main-doc{
   background-color: #e3efcf;
 }
-#welcome-section{
-    height: 100vh;
-}
+
 #header{
     display: grid;
     grid-template-columns: repeat(8,1fr);
@@ -322,3 +320,4 @@ footer a:hover{
     text-align: center;
     font-size: 2rem;
   }
+}  
